@@ -1,0 +1,34 @@
+----------------------------------
+Crowd Counting Demo Application
+----------------------------------
+
+* Deep learning application for head detection, counting and generating heatmap based on the detected heads.
+
+----------------------------------
+Steps to run the demo application	
+----------------------------------
+
+* Clone the repository,
+	* git clone https://github.com/dilipkumar25/smartecam-ai-samples.git
+
+* Change directory to repository directory,
+	* cd smartecam-ai-samples
+
+* Create directory structure,
+	* mkdir -p /opt/econ/dlapp
+
+* Copy the application into SmarteCam device,
+	* sudo cp -r crowd_counting/* /opt/econ/dlapp
+
+* Download the model file from google drive, 
+	* https://drive.google.com/file/d/1F4CJy7sE6UnTQepSHJt9aIlA5P_Hi-8f/view?usp=sharing
+
+* Create directory,
+	* sudo mkdir -p /opt/econ/dlapp/dlapp/econ/peopletracking/models/
+
+* Copy the model file to the models location,
+	* sudo cp trt_nofpn_crowd_v1.pb /opt/econ/dlapp/dlapp/econ/peopletracking/models/
+
+* Run the application using the command,
+	* /opt/econ/dlapp/crowd_demo
+

@@ -1,0 +1,40 @@
+----------------------------------
+People Counting Demo Application
+----------------------------------
+
+* Deep learning application for people counting based on the detected heads.
+
+----------------------------------
+Steps to run the demo application	
+----------------------------------
+
+* Clone the repository,
+	* git clone https://github.com/dilipkumar25/smartecam-ai-samples.git
+
+* Change directory to repository directory,
+	* cd smartecam-ai-samples
+
+* Create directory structure,
+	* mkdir -p /opt/econ/peoplecounting
+
+* Copy the application into SmarteCam device,
+	* sudo cp -r people_counting/* /opt/econ/peoplecounting
+
+* Download the model file from google drive, 
+	* https://drive.google.com/file/d/1ihiaK7jlyBdo9l8q5oucA-VUVOkoOU1D/view?usp=sharing
+
+* Create directory,
+	* sudo mkdir -p /opt/econ/peoplecounting/peoplecounting/econ/peopletracking/models/
+
+* Copy the model file to the models location,
+	* sudo cp <DOWNLOAD_PATH>/trt_head_detection_FP16.pb /opt/econ/peoplecounting/peoplecounting/econ/peopletracking/models/
+
+* Download the video file from google drive,
+	* https://drive.google.com/file/d/1vHtU3xPe5IERKz1_9Foq1xW88nS6yEsO/view?usp=sharing
+
+* Copy the video file to videos location,
+	* sudo cp <DOWNLOAD_PATH>/combined_videos.avi /opt/econ/peoplecounting/peoplecounting/econ/peopletracking/videos/
+
+* Run the application using the command,
+	* /opt/econ/peoplecounting/people_counting_demo
+
