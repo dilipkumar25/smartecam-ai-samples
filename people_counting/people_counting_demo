@@ -1,6 +1,8 @@
 #!/usr/bin/python3.5
 import os
 import sys
+
+os.chdir("/opt/econ/peoplecounting/peoplecounting")
 sys.path.append("/opt/econ/peoplecounting/peoplecounting")
 
 os.environ["DISPLAY"] = ':0'
