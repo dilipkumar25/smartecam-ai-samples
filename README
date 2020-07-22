@@ -36,6 +36,7 @@ Steps to run the demo application :
 Prerequisites :
 ----------------
 
+* The above demo applications support R01_RC3 version of the SmarteCam.
 * SmarteCam is connected to a 1080P HDMI monitor using a mini HDMI to HDMI cable.
 * SmarteCam is connected to a PC using Ethernet cable. 
 * Demo application can be launched using a SSH session.
