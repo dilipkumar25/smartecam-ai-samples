@@ -1,12 +1,12 @@
-----------------------------------
+------------------------------
 SmarteCam Demo Applications :
-----------------------------------
+------------------------------
 
 * Deep learning application for people counting / crowd counting demo based on the detected heads.
 
-------------------------------------
-Steps to run the demo application :
-------------------------------------ss
+-----------------------------------------
+Steps to install the demo applications :
+-----------------------------------------
 
 * Download / clone the repository.
 
@@ -25,12 +25,6 @@ Steps to run the demo application :
 * Copy the model file to the models location,
 	* sudo cp <DOWNLOAD_PATH>/trt_head_detection_FP16.pb /opt/econ/dlapp/smartecam-ai-samples/models
 	* sudo cp <DOWNLOAD_PATH>/trt_nofpn_crowd_v1.pb /opt/econ/dlapp/smartecam-ai-samples/models
-
-* Command to run the people counting application,
-	* /opt/econ/dlapp/smartecam-ai-samples/people_counting/people_counting_demo
-
-* Command to run the crowd counting demo application,
-	* /opt/econ/dlapp/smartecam-ai-samples/crowd_counting/crowd_demo
 
 ----------------
 Prerequisites :
