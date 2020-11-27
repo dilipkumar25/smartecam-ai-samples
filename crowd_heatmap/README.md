@@ -9,7 +9,7 @@ feet and is focused on a crowded scene.
 
 ### Running the application
 ```bash
-/opt/econ/dlapp/smartecam-ai-samples/crowd_counting/crowd_demo
+/opt/econ/dlapp/smartecam-ai-samples/crowd_heatmap/crowd_demo
 ```
 
 ### Exiting the application
