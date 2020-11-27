@@ -6,21 +6,26 @@ Deep learning application for people counting / crowd counting demo based on the
 
 1. Download / clone the repository.
 
-2. Create directory structure:
+2. Run the script to install all dependencies.
+	```bash
+	./install.sh
+	```
+
+3. Create directory structure:
 	```bash
 	sudo mkdir -p /opt/econ/dlapp
 	```
 
-3. Copy the application into SmarteCam device:
+4. Copy the application into SmarteCam device:
 	```bash
 	sudo cp -r smartecam-ai-samples/ /opt/econ/dlapp
 	```
 
-4. Download the [people counting model file from Google Drive](https://drive.google.com/file/d/1x-ZyqGfzbaHD26UKthK4CkiXS0qbWlNg/view?usp=sharing).
+5. Download the [people counting model file from Google Drive](https://drive.google.com/file/d/1x-ZyqGfzbaHD26UKthK4CkiXS0qbWlNg/view?usp=sharing).
 
-5. Download the [crowd demo model file from Google Drive](https://drive.google.com/file/d/1ORL0a_z94R-gZo_xyd6K8wC9EK7O_Jl2/view?usp=sharing)
+6. Download the [crowd demo model file from Google Drive](https://drive.google.com/file/d/1ORL0a_z94R-gZo_xyd6K8wC9EK7O_Jl2/view?usp=sharing)
 
-6. Copy the model file to the models location:
+7. Copy the model file to the models location:
 
 	```bash
 	# people counting model
