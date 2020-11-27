@@ -6,7 +6,7 @@ Deep learning application for people counting / crowd counting demo based on the
 
 1. Download / clone the repository.
 
-2. Run the script to install all dependencies.
+2. Run the script to install all dependencies for AI application.
 	```bash
 	./install.sh
 	```
@@ -36,7 +36,7 @@ Deep learning application for people counting / crowd counting demo based on the
 	```
 
 ### Prerequisites
-* The above demo applications support `R01_RC3` version of the SmarteCam.
+* The above demo applications support `v1.1` version of the SmarteCam.
 * SmarteCam is connected to a 1080P HDMI monitor using a mini HDMI to HDMI cable.
 * SmarteCam is connected to a PC using Ethernet cable. 
 * Demo application can be launched using a SSH session.
