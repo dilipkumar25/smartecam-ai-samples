@@ -34,6 +34,8 @@ Deep learning application for people counting / crowd counting demo based on the
 	# crowd demo model
 	sudo cp /path/to/trt_nofpn_crowd_v1.pb /opt/econ/dlapp/smartecam-ai-samples/models
 	```
+8. [Launching the people counting application](people_counting/README.md)
+9. [Launching the crowd heatmap application](crowd_heatmap/README.md)
 
 ### Prerequisites
 * The above demo applications support `v1.1` version of the SmarteCam.
