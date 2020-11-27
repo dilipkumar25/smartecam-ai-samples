@@ -1,8 +1,8 @@
-#!/usr/bin/python3.5
-import econ
+#!/usr/bin/python3.6
 import os
 
 os.environ["DISPLAY"] = ":0"
-
 MODEL_PATH = "/opt/econ/dlapp/smartecam-ai-samples/models/trt_nofpn_crowd_v1.pb"
+
+import econ
 econ.start_crowd_demo(MODEL_PATH)

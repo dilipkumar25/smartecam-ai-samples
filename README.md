@@ -16,9 +16,9 @@ Deep learning application for people counting / crowd counting demo based on the
 	sudo cp -r smartecam-ai-samples/ /opt/econ/dlapp
 	```
 
-4. Download the [people counting model file from Google Drive](https://drive.google.com/file/d/1ihiaK7jlyBdo9l8q5oucA-VUVOkoOU1D/view?usp=sharing).
+4. Download the [people counting model file from Google Drive](https://drive.google.com/file/d/1x-ZyqGfzbaHD26UKthK4CkiXS0qbWlNg/view?usp=sharing).
 
-5. Download the [crowd demo model file from Google Drive](https://drive.google.com/file/d/1F4CJy7sE6UnTQepSHJt9aIlA5P_Hi-8f/view?usp=sharing)
+5. Download the [crowd demo model file from Google Drive](https://drive.google.com/file/d/1ORL0a_z94R-gZo_xyd6K8wC9EK7O_Jl2/view?usp=sharing)
 
 6. Copy the model file to the models location:
 
@@ -36,3 +36,4 @@ Deep learning application for people counting / crowd counting demo based on the
 * SmarteCam is connected to a PC using Ethernet cable. 
 * Demo application can be launched using a SSH session.
 * Running both the application simultaneously is not recommended.
+
