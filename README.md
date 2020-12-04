@@ -8,7 +8,7 @@ Deep learning application for people counting / crowd counting demo based on the
 
 2. Run the script to install all dependencies for AI application.
 	```bash
-	./install.sh
+	sh ./install.sh
 	```
 
 3. Create directory structure:
