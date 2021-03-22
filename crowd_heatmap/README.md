@@ -11,6 +11,9 @@ feet and is focused on a crowded scene.
 ```bash
 /opt/econ/dlapp/smartecam-ai-samples/crowd_heatmap/crowd_demo
 ```
+### Preview
+![Preview for Crowd Heatmap](.crowd_heatmap.png)
+
 
 ### Exiting the application
 ```bash
