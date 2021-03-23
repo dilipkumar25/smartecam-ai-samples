@@ -46,9 +46,10 @@ Deepstream sample application for People Tracking
 
 2. Run the config file using deepstream-app
 ```bash
-deepstream-app -c /opt/nvidia/deepstream/deepstream-5.0/samples/configs/deepstream-app/source4_1080p_dec_infer-resnet_tracker_sgie_tiled_display_int8.txt```
+deepstream-app -c /opt/nvidia/deepstream/deepstream-5.0/samples/configs/deepstream-app/source4_1080p_dec_infer-resnet_tracker_sgie_tiled_display_int8.txt
+```
 
-### Preview
+## Preview
 ![Preview for Deepstream Sample](.deepstream_sample.png)
 
 ### Prerequisites
