@@ -11,6 +11,9 @@ floor.
 /opt/econ/dlapp/smartecam-ai-samples/people_counting/people_counting_demo
 ```
 
+### Preview
+![Preview for People Counting](.people_counting.png)
+
 ### Exiting the application
 ```bash
 pkill -f people_counting_demo
