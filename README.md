@@ -37,6 +37,21 @@ Deep learning application for people counting / crowd counting demo based on the
 8. [Launching the people counting application](people_counting/README.md)
 9. [Launching the crowd heatmap application](crowd_heatmap/README.md)
 
+## Deepstream Sample Appliations
+
+Deepstream sample application for People Tracking
+
+## Executing the sample application
+1. Open up a terminal
+
+2. Run the config file using deepstream-app
+```bash
+deepstream-app -c /opt/nvidia/deepstream/deepstream-5.0/samples/configs/deepstream-app/source4_1080p_dec_infer-resnet_tracker_sgie_tiled_display_int8.txt
+```
+
+## Preview
+![Preview for Deepstream Sample](.deepstream_sample.png)
+
 ### Prerequisites
 * The above demo applications support `v1.1` version of the SmarteCam.
 * SmarteCam is connected to a 1080P HDMI monitor using a mini HDMI to HDMI cable.
